@@ -1,0 +1,186 @@
+.wraper {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero {
+    background-color: #02160b;
+    width: 100%;
+    color: #F7F7F7;
+}
+
+.content {
+    width: 1440px;
+    height: 780px;
+    left: 0px;
+    top: -1px;
+    background-image: url('../image/Rectangle.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.content-size {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.logo img {
+    width: 70px;
+    height: 60px;
+}
+
+.logo {
+    margin-top: 20px;
+    display: flex;
+}
+
+.logo p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    width: 155px;
+    height: 60px;
+    margin: 0px 0px 0px 15px;
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.blog {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    margin-right: 61px;
+}
+
+.contacts {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    margin-right: 60px;
+}
+
+.search-icon {
+    
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin-right: 60px;
+    margin-top: 34px;
+}
+
+.search-icon img {
+    margin-top: 14px;
+}
+
+.sign-in-button {
+    width: 120px;
+    height: 50px;
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    background: rgba(0, 0, 0, 0);
+    color: #F7F7F7;
+}
+
+.sign-in-button:hover {
+    background: #CD6326;
+}
+
+.sign-in-button:active {
+    background: #8F5613;
+}
+
+a {
+    text-decoration: none;
+    color: #F7F7F7;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.search-icon a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+.survival {
+    display: flex;
+    flex-direction: column;
+}
+
+.survival h1 {
+    width: 199px;
+    height: 72px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #CD6326;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+
+.survival p {
+    width: 274px;
+    height: 108px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 51px;
+    margin-bottom: 0;
+}
+
+.donate-button {
+    width: 160px;
+    height: 60px;
+    background: #CD6326;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color:#F7F7F7;    
+    margin-top: 50px;
+}
+
+.donate-button:hover {
+    background: #E39128;
+}
+
+.donate-button:active {
+    background: #8F5613;
+}
