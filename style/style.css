@@ -1,3 +1,49 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
 .wraper {
     margin-right: auto;
     margin-left: auto;
@@ -60,7 +106,9 @@ header {
 
 .nav li {
     display: inline;
+    margin-left: 1px;
 }
+
 
 .blog {
     font-family: Open Sans;
@@ -81,10 +129,7 @@ header {
 }
 
 .search-icon {
-    
     display: flex;
-    width: 32px;
-    height: 32px;
     margin-right: 60px;
     margin-top: 34px;
 }
@@ -106,6 +151,7 @@ header {
     line-height: 27px;
     background: rgba(0, 0, 0, 0);
     color: #F7F7F7;
+    padding-top: 4px;
 }
 
 .sign-in-button:hover {
@@ -175,6 +221,7 @@ a:hover {
     text-align: center;
     color:#F7F7F7;    
     margin-top: 50px;
+    padding-bottom: 4px;
 }
 
 .donate-button:hover {
@@ -183,4 +230,209 @@ a:hover {
 
 .donate-button:active {
     background: #8F5613;
+}
+
+main {
+    background-color: #cccccc
+}
+
+.main-div {
+    width: 1440px;
+    height: 1368px;
+}
+
+.article {
+    padding-top: 120px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 74px;
+    text-align: center;
+    color: #333333;
+}
+
+h3 {
+    margin-top: 18px;
+    margin-bottom: 120px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-button {
+    width: 26px;
+    height: 39px;
+    border: none;
+    padding: 0;
+    outline: none;
+    align-items: center;
+}
+
+.slider-button1 {
+    width: 26px;
+    height: 39px;
+    border: none;
+    padding: 0;
+    outline: none;
+    align-items: center;
+}
+
+.slider-button img {
+    background: #cccccc;
+}
+
+.slider-button1 img {
+    position: relative;
+    left: -3px;
+    background: #cccccc;
+}
+
+.slider div {
+    position: relative;
+}
+
+.name1 {
+    position: absolute;
+    left: 128px;
+    bottom: 80px;
+    color: #F7F7F7;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.name2 {
+    position: absolute;
+    left: 109px;
+    bottom: 80px;
+    color: #F7F7F7;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+}
+
+
+.name3 {
+    position: absolute;
+    left: 129px;
+    bottom: 80px;
+    color: #F7F7F7;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+}
+
+
+.description1 {
+    position: absolute;
+    bottom: 43px;
+    left: 60px;
+    color: #F7F7F7;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.description2 {
+    position: absolute;
+    bottom: 43px;
+    left: 76px;
+    color: #F7F7F7;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.description3 {
+    position: absolute;
+    bottom: 43px;
+    left: 89px;
+    color: #F7F7F7;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.notice {
+    margin-bottom: 60px;
+    margin-top: 238px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+
+.main-div form {
+    margin-bottom: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    height: 57px;
+    width: 510px;
+    padding: 1px 15px 0px 15px;
+    border: none;
+    outline: none;
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    border-left: 1px solid #666666;
+    background: #CCCCCC;
+}
+
+#submit {
+    width: 120px;
+    height: 60px;
+    background: #CD6326;
+    border: 2px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F7F7F7;
+    text-align: center;
+    justify-content: center;
 }
